@@ -1,0 +1,43 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구인구직</title>
+</head>
+<body>
+    <form action="example.php" method="post" name="contact-form">
+        이름: <input type="name" placeholder="이름을 입력하세요">
+        <p>
+            성별: 
+            <input type="radio" name="gender" value="남자" id="men">
+                <label for="men">남자</label>
+            <input type="radio" name="gender" value="여자" id="women">
+                <label for="women">여자</label>
+        </p>
+        <p>
+            질병: 
+            <input type="checkbox" name="sick" id="liver" value="간질환">
+                <label for="liver">간질환</label>
+            <input type="checkbox" name="sick" id="mental" value="정신실환">
+                <label for="mental">정신질환</label>
+        </p>
+        <p>
+            혈액형:
+            <select name="bloodtype">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                <option value="AB">AB</option>
+                <option value="IDK">모름</option>
+            </select>
+        </p>
+        <p>
+            <p>특이사항:</p>
+            <textarea name="significant" cols="30" rows="10" placeholder="자신의 특이사항을 입력해주세요"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="전송">
+        </p>
+    </form>               
+</body>
+</html>
