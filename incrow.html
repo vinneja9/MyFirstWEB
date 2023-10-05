@@ -5,39 +5,63 @@
     <title>구인구직</title>
 </head>
 <body>
-    <form action="example.php" method="post" name="contact-form">
-        이름: <input type="name" placeholder="이름을 입력하세요">
-        <p>
-            성별: 
-            <input type="radio" name="gender" value="남자" id="men">
-                <label for="men">남자</label>
-            <input type="radio" name="gender" value="여자" id="women">
-                <label for="women">여자</label>
-        </p>
-        <p>
-            질병: 
-            <input type="checkbox" name="sick" id="liver" value="간질환">
-                <label for="liver">간질환</label>
-            <input type="checkbox" name="sick" id="mental" value="정신실환">
-                <label for="mental">정신질환</label>
-        </p>
-        <p>
-            혈액형:
-            <select name="bloodtype">
-                <option value="A">A</option>
-                <option value="B">B</option>
-                <option value="O">O</option>
-                <option value="AB">AB</option>
-                <option value="IDK">모름</option>
-            </select>
-        </p>
-        <p>
-            <p>특이사항:</p>
-            <textarea name="significant" cols="30" rows="10" placeholder="자신의 특이사항을 입력해주세요"></textarea>
-        </p>
-        <p>
-            <input type="submit" value="전송">
-        </p>
-    </form>               
+    <style>
+        #orange_background {
+        line-height: 50px;
+        text-align: center;
+        background-color: rgb(231, 103, 64);
+        border: 1px solid black;
+        width: 500px; height: 2000px;
+        color: white;
+    }
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="orange_background">
+        <form action="example.php" method="post" name="contact-form">
+            <p style="font-size: 30pt;">당신의 내역을 적어주세요.</h1>
+            <p style="font-size: 5px;">이러한 정보들은 본 면접이 끝난뒤 자동적으로 파기됩니다.</p>
+            
+            <p style="font-size: 20pt;">이름: <input type="name" placeholder="이름을 입력하세요"></p>
+                
+            <p style="font-size: 20pt;">
+                성별: 
+                <input type="radio" name="gender" value="남자" id="men">
+                    <label for="men">남자</label>
+                <input type="radio" name="gender" value="여자" id="women">
+                    <label for="women">여자</label>
+            </p>
+            <p style="font-size: 20pt;">
+                질병: 
+                <input type="checkbox" name="sick" id="liver" value="간질환">
+                    <label for="liver">간질환</label>
+                <input type="checkbox" name="sick" id="mental" value="정신실환">
+                    <label for="mental">정신질환</label>
+            </p>
+            <p style="font-size: 20pt;">
+                혈액형:
+                <select name="bloodtype">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="O">O</option>
+                    <option value="AB">AB</option>
+                    <option value="IDK">모름</option>
+                </select>
+            </p>
+            <p style="font-size: 20pt;">
+                <p style="font-size: 20pt;">특이사항:</p>
+                <textarea name="significant" cols="30" rows="10" placeholder="자신의 특이사항을 입력해주세요"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="전송">
+            </p>
+        </form>
+    </div>               
 </body>
 </html>

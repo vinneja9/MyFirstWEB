@@ -1,7 +1,13 @@
 @charset "utf-8";
+body {
+  background-color: #e8dfd9;
+  margin: 0;
+  padding: 0;
+}
+
 header {
   height: 75px;
-  padding: 1rem;
+  padding: 0 10%;
   margin: 0 auto;
   color: white;
   background: black;
@@ -9,6 +15,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+header h1 {
+  font-family: "Noto Serif HK", serif;
 }
 
 .upper {
@@ -18,12 +27,7 @@ header {
   height: auto;
   margin: 0 auto;
   padding: 0 0;
-}
-
-body {
-  background-color: #e8dfd9;
-  margin: 0;
-  padding: 0;
+  background-image: url(./img/main001.gif);
 }
 .upper h1 {
   font-family: "Noto Serif HK", serif;
@@ -35,9 +39,6 @@ body {
   background-color: white;
   color: black;
 }
-header h1 {
-  font-family: "Noto Serif HK", serif;
-}
 .upper p {
   padding: 5px;
   margin: 0;
@@ -45,27 +46,40 @@ header h1 {
   font-weight: bold;
   font-size: 20px;
 }
-.Sub {
-  margin: 50px;
 
+.sub {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
   height: auto;
   background-color: black;
   color: white;
   line-height: 40px;
 }
-
+.sub p {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
 .Subbutton {
   margin: 10px;
-  padding: 30px;
+  padding: 10px 30px;
   background-color: rgb(110, 110, 255);
   color: #fff;
   border: none;
   text-align: center;
+  font-weight: bold;
 }
+
 main {
   background-color: white;
   width: 80%;
   margin: 0 auto;
   padding: 0;
   font-size: 100px;
+}
+main p {
+  margin: 0;
 }
