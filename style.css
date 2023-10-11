@@ -88,7 +88,7 @@ main p {
 
 .article_left {
   background-color: white;
-  width: 50%;
+  width: 33%;
   height: auto;
   margin: 0 auto;
   padding: 0;
@@ -107,9 +107,30 @@ main p {
   height: 200px;
 }
 
+.article_middle {
+  background-color: white;
+  width: 33%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  float: right;
+}
+.article_middle h2 {
+  text-align: center;
+  margin-bottom: 0;
+  padding: 0 10px;
+  height: 65px;
+  font-size: 20px;
+}
+.article_middle img {
+  margin: 10px;
+  width: 95%;
+  height: 200px;
+}
+
 .article_right {
   background-color: white;
-  width: 50%;
+  width: 33%;
   height: auto;
   margin: 0 auto;
   padding: 0;
